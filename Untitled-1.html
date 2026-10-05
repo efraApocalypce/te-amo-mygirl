@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para ti ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Música (intenta sonar sola) -->
+  <audio id="musica" loop autoplay>
+    <source src="heartbeat.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Galaxia de fondo -->
+  <canvas id="galaxy"></canvas>
+
+  <!-- Contenido principal -->
+  <div id="escena" class="escena">
+
+    <!-- Corazón 3D -->
+    <div class="corazon-3d">
+      <div class="cara frente">❤️</div>
+      <div class="cara atras">❤️</div>
+      <div class="cara izquierda">❤️</div>
+      <div class="cara derecha">❤️</div>
+      <div class="cara arriba">❤️</div>
+      <div class="cara abajo">❤️</div>
+    </div>
+
+    <h1 class="titulo">Para ti...</h1>
+    <p class="subtitulo">Hay algo que quiero decirte</p>
+
+    <!-- Galería de fotos -->
+    <div class="galeria">
+
+      <!-- Foto 1 -->
+      <div class="foto-card">
+        <img src="foto1.jpg" alt="Momento 1">
+        <div class="mensaje-foto">
+          Desde el primer día que te vi, supe que eras especial.
+        </div>
+      </div>
+
+      <!-- Foto 2 -->
+      <div class="foto-card">
+        <img src="foto2.jpg" alt="Momento 2">
+        <div class="mensaje-foto">
+          Contigo todo se siente más bonito y más real.
+        </div>
+      </div>
+
+      <!-- Foto 3 -->
+      <div class="foto-card">
+        <img src="foto3.jpg" alt="Momento 3">
+        <div class="mensaje-foto">
+          Me haces querer ser mejor persona cada día.
+        </div>
+      </div>
+
+      <!-- Foto 4 -->
+      <div class="foto-card">
+        <img src="foto4.jpg" alt="Momento 4">
+        <div class="mensaje-foto">
+          Quiero seguir creando recuerdos contigo.
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Mensaje final -->
+    <div class="mensaje-final">
+      <h2>Quiero pedirte algo...</h2>
+      <p>
+        ¿Puedo ser tu novio?<br>
+        Quiero caminar a tu lado, cuidarte y amarte<br>
+        todos los días.
+      </p>
+      <div class="respuesta">
+        <span class="si">❤️</span>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
